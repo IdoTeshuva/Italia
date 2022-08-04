@@ -1,0 +1,66 @@
+body {
+  background-image: url("food.jpeg");
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.black {
+  background-color: rgba(0, 0, 0, 0.54);
+  width: 450px;
+  height: 600px;
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+p {
+  font-size: 200%;
+}
+.tab {
+  margin-left: 40em;
+  display: inline-block;
+}
+a:link {
+  color: black;
+  background-color: rgb(109, 255, 187);
+}
+#pizza {
+  font-size: 300%;
+  margin-bottom: 100px;
+}
+.photos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.hi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 200%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-direction: column;
+  width: 20%;
+  align-content: center;
+}
+#conn {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#fff {
+  font-size: 100%;
+}
+hr {
+  color: black;
+  background-color: black;
+  border-color: black;
+}
