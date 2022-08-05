@@ -64,3 +64,21 @@ hr {
   background-color: black;
   border-color: black;
 }
+.gluten{
+    background: rgba(255, 204, 127, 0.8);
+    font-size: 12px;
+    letter-spacing: .8px;
+    line-height: 16px;
+    padding: 4px 8px;
+    position:absolute;
+    font-size: 20px;
+}
+.sale{
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    letter-spacing: .8px;
+    line-height: 16px;
+    padding: 4px 8px;
+    position:absolute;
+    font-size: 20px;
+}
