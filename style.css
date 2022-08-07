@@ -1,29 +1,47 @@
 body {
-  background-image: url("food.jpeg");
+  background-image:url("wall.jpg");
+  margin: 0;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 .black {
-  background-color: rgba(0, 0, 0, 0.54);
+  background-color: rgba(0, 0, 0, 0.678);
   width: 450px;
-  height: 600px;
+  height: 700px;
   color: white;
   text-align: center;
+}
+#firstpic{
+  position: absolute;
+  top: 0;
+}
+hr{
+  margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: 5rem;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 p {
   font-size: 200%;
 }
-.tab {
-  margin-left: 40em;
-  display: inline-block;
+#tab {
+  margin-left: 42.5%;
+  display: flex;
+  position: fixed;
+  margin-top: 10px;
+  z-index: 1;
+  
 }
+
 a:link {
   color: black;
-  background-color: rgb(109, 255, 187);
+
 }
 #pizza {
   font-size: 300%;
@@ -72,6 +90,7 @@ hr {
     padding: 4px 8px;
     position:absolute;
     font-size: 20px;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0);
 }
 .sale{
     background: rgba(255, 255, 255, 0.8);
@@ -81,4 +100,71 @@ hr {
     padding: 4px 8px;
     position:absolute;
     font-size: 20px;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0);
+}
+#a{
+  padding: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  border-radius:5px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.482);
+  background-image: linear-gradient(rgb(110, 228, 255), rgb(127, 136, 255));
+  stroke: 2px white;
+}
+#b{
+  padding: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(195, 255, 235), aquamarine);
+  border-radius:5px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.482);
+}
+#c{
+  padding: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(195, 255, 235), aquamarine);
+  border-radius:5px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.482);
+}
+#d{
+  padding: 5px;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(195, 255, 235), aquamarine);
+  border-radius:5px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.482);
+}
+#up{
+  padding: 5px;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(195, 255, 235), aquamarine);
+  border-radius:15px; 
+  min-width: max-content;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.482);
+}
+#italy{
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+#price{
+  font-size: 20px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(rgb(110, 228, 255), rgb(127, 136, 255));
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.482);
+  border-radius: 10px;
+  padding: 5px;
+}
+h2{
+  margin: 0;
+  background-image: linear-gradient(rgb(195, 255, 235), aquamarine);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.482);
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px;
 }

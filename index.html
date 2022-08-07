@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap-grid.min.css"
@@ -13,29 +16,27 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Document</title>
+    <title>Italia</title>
+    <link rel="icon" type="image/x-icon" href="italy.gif" />
   </head>
   <body>
-    <div class="tab">
-      <a href="#Home">Home</a>
-      <a href="#menu">Menu</a>
-      <a href="#faq">FAQ</a>
-      <a href="#conn">Contact</a>
-    </div>
+    
+    <a id="up" href="#">⬆ UP ⬆</a>
     <!-- HOME PAGE -->
     <div class="black">
-      <h1 id="Home">Welcome to ITALIA</h1>
+      <img id="italy" src="italy.gif" alt="" width="100px" height="70px" />
+      <div id="tab">
+        <a id="a" href="#Home">Home</a>
+        <a id="b" href="#menu">Menu</a>
+        <a id="c" href="#faq">FAQ</a>
+        <a id="d" href="#conn">Contact</a>
+      </div>
+      <h1 id="Home">Welcome to ITALIA!</h1>
       <p>order delicious food online</p>
       <h3>call 0548015747 for reservation</h3>
-      <button
-        style="background-color: rgb(109, 255, 187)"
-        type="button"
-        class="btn btn-primary"
-      >
-        Order NOW
-      </button>
+      <br>
+      <a id="a" href="#">ORDER HERE!</a>
     </div>
-    <br />
     <hr />
     <!-- MENU PAGE -->
     <div id="menu">
@@ -44,30 +45,36 @@
         <div class="hi">
           <div class="gluten">GLUTEN FREE!</div>
           <img src="pizza.jpeg" alt="" width="400px" height="200px" ; />
-          Pizza
+          <h2>Pizza</h2>
+          <p id="price">9.99$</p>
         </div>
         <div class="hi">
-            <div class="sale">ON SALE!</div>
+          <div class="sale">ON SALE!</div>
           <img src="ravioli.jpeg" alt="" width="400px" height="200px" />
-          Ravioli
+          <h2>Ravioli</h2>
+          <p id="price">14.99$</p>
         </div>
         <div class="hi">
           <img src="pasta.jpeg" alt="" width="400px" height="200px" />
-          Pasta
+          <h2>Pasta</h2>
+          <p id="price">14.99$</p>
         </div>
         <div class="hi">
-            <div class="sale">ON SALE!</div>
+          <div class="sale">ON SALE!</div>
           <img src="salad.jpeg" alt="" width="400px" height="200px" />
-          Salad
+          <h2>Salad</h2>
+          <p id="price">19.99$</p>
         </div>
         <div class="hi">
           <img src="risotto.jpeg" alt="" width="400px" height="200px" />
-          Risotto
+          <h2>Risotto</h2>
+          <p id="price">14.99$</p>
         </div>
         <div class="hi">
-            <div class="sale">ON SALE!</div>
+          <div class="sale">ON SALE!</div>
           <img src="cafe.jpeg" alt="" width="400px" height="200px" />
-          Coffee
+          <h2>Coffee</h2>
+          <p id="price">4.99$</p>
         </div>
       </div>
       <hr />
@@ -110,18 +117,22 @@
         <div class="contact">
           Reason for contact
           <select name="reasons" id="reasons">
-            <option value="volvo">thank the chef</option>
-            <option value="saab">you did not like our food</option>
-            <option value="mercedes">i want to make an event</option>
-            <option value="audi">blablabla</option>
+            <option value="thanks">thank the chef</option>
+            <option value="badfood">you did not like our food</option>
+            <option value="event">i want to make an event</option>
+            <option value="bla">blablabla</option>
           </select>
         </div>
         <br />
-        <input type="checkbox" name="agree" id="agree"> I agree to the terms of contacting
-        <hr>
-        <button type="button" class="btn btn-primary">SEND</button>
+        <div>
+          <input type="checkbox" name="agree" id="agree" />
+          I agree to the terms of contacting
+        </div>
+        <hr />
+        <span>
+          <button type="button" class="btn btn-primary">SEND</button>
+        </span>
         <br />
-        <a href="#">⬆ UP ⬆</a>
       </div>
     </div>
   </body>
